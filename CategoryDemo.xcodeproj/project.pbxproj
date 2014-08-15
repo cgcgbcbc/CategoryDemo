@@ -19,6 +19,8 @@
 		8A5EB8C8199DFCB10008C081 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A5EB8B0199DFCB10008C081 /* UIKit.framework */; };
 		8A5EB8D0199DFCB10008C081 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A5EB8CE199DFCB10008C081 /* InfoPlist.strings */; };
 		8A5EB8D2199DFCB10008C081 /* CategoryDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5EB8D1199DFCB10008C081 /* CategoryDemoTests.m */; };
+		8A5EB8DD199DFCE60008C081 /* CDExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5EB8DC199DFCE60008C081 /* CDExample.m */; };
+		8A5EB8E0199DFD7F0008C081 /* CDOutscope.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5EB8DF199DFD7F0008C081 /* CDOutscope.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,10 @@
 		8A5EB8CD199DFCB10008C081 /* CategoryDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CategoryDemoTests-Info.plist"; sourceTree = "<group>"; };
 		8A5EB8CF199DFCB10008C081 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8A5EB8D1199DFCB10008C081 /* CategoryDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategoryDemoTests.m; sourceTree = "<group>"; };
+		8A5EB8DB199DFCE60008C081 /* CDExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDExample.h; sourceTree = "<group>"; };
+		8A5EB8DC199DFCE60008C081 /* CDExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDExample.m; sourceTree = "<group>"; };
+		8A5EB8DE199DFD7F0008C081 /* CDOutscope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDOutscope.h; sourceTree = "<group>"; };
+		8A5EB8DF199DFD7F0008C081 /* CDOutscope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDOutscope.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +117,10 @@
 				8A5EB8BC199DFCB10008C081 /* CDAppDelegate.m */,
 				8A5EB8BE199DFCB10008C081 /* Images.xcassets */,
 				8A5EB8B3199DFCB10008C081 /* Supporting Files */,
+				8A5EB8DB199DFCE60008C081 /* CDExample.h */,
+				8A5EB8DC199DFCE60008C081 /* CDExample.m */,
+				8A5EB8DE199DFD7F0008C081 /* CDOutscope.h */,
+				8A5EB8DF199DFD7F0008C081 /* CDOutscope.m */,
 			);
 			path = CategoryDemo;
 			sourceTree = "<group>";
@@ -240,6 +250,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A5EB8E0199DFD7F0008C081 /* CDOutscope.m in Sources */,
+				8A5EB8DD199DFCE60008C081 /* CDExample.m in Sources */,
 				8A5EB8B9199DFCB10008C081 /* main.m in Sources */,
 				8A5EB8BD199DFCB10008C081 /* CDAppDelegate.m in Sources */,
 			);
